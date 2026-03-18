@@ -21,12 +21,13 @@ for (let index = 0; index <=19 ; index++) {
     altura = parseFloat(altura)
 
     //Realizar as funções
-    var imcconta = calculo(peso, altura)
-    var imctipo = imc(imcconta)
+    const imcConta = calculo(peso, altura)
+    const imcTipo = imc(imcConta)
 
     //Inserir o resultado
-    filhos[4].textContent = imcconta
-    filhos[5].textContent = imctipo
+    filhos[4].textContent = imcConta
+    filhos[5].textContent = imcTipo
+
 
 }
 
